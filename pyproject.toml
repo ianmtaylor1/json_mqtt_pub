@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json_mqtt_pub"
+version = "0.0.1"
+authors = [
+  { name="Ian Taylor", email="ian.m.taylor1@gmail.com" },
+]
+description = "Read JSON objects from stdin and publish them to MQTT."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"Operating System :: OS Independent",
+]
+
+[project.scripts]
+json_mqtt_pub = "json_mqtt_pub:run"

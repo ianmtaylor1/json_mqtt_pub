@@ -1,6 +1,6 @@
 ## json_mqtt_pub
 
-Read JSON objects from stdin and publis them to MQTT.
+Read JSON objects from stdin and publish them to MQTT.
 
 ### Publishing topics
 

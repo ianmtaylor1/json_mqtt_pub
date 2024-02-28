@@ -1,2 +1,0 @@
-[console_scripts]
-json_mqtt_pub = json_mqtt_pub:run
